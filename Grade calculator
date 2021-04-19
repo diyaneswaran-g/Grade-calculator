@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main()
+{
+   int mark=0;
+   printf("Enter the mark of the student");
+   scanf("%d",&mark);
+   if(mark>=85)
+   {
+       printf("The grade for the given mark is\n A");
+   }
+    if(mark>=70)
+    {
+       printf("The grade for the given mark is\n B");
+   }
+    if(mark>=55)
+     {
+       printf("The grade for the given mark is\n C");
+   }
+    if(mark>=40)
+     {
+       printf("The grade for the given mark is\n D");
+   }
+    if(mark<40)
+     {
+       printf("The grade for the given mark is\n F");
+   }
+    return 0;
+}
